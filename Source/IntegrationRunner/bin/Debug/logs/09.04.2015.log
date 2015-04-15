@@ -1,0 +1,103 @@
+2015-04-09 10:15:56,893 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 10:16:48,757 [10] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 10:19:49,114 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 10:19:58,720 [9] ERROR bookingbug - bookingbug integration failed
+System.InvalidOperationException: The -modified must be a valid date
+   at BookingBugBookingIntegration.ParameterHandler.GetDateParameters(IReadOnlyList`1 args, Int32 expectedArgCount) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\ParameterHandler.cs:line 22
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 26
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 37
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-09 10:20:16,104 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 10:21:40,426 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 10:22:42,149 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 10:23:07,276 [10] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 11:01:35,651 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 11:01:59,794 [9] INFO  bookingbug - 0 events retrieved successfully.
+2015-04-09 11:02:24,878 [9] INFO  bookingbug - Events saved successfully
+2015-04-09 11:02:26,408 [9] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 11:03:13,596 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 11:33:10,405 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 11:33:10,552 [10] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 11:33:12,300 [10] INFO  bookingbug - Event saved successfully.
+2015-04-09 11:33:12,301 [10] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 11:34:37,879 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 11:34:44,898 [10] INFO  bookingbug - 8 events retrieved successfully.
+2015-04-09 11:34:48,910 [10] INFO  bookingbug - Events saved successfully
+2015-04-09 11:34:48,910 [10] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 14:20:58,439 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:49:10,271 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:49:30,268 [9] INFO  bookingbug - Booking retrieved successfully
+2015-04-09 14:51:26,564 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:51:30,635 [9] INFO  bookingbug - Booking retrieved successfully
+2015-04-09 14:52:54,256 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:53:10,257 [9] INFO  bookingbug - Booking retrieved successfully
+2015-04-09 14:53:13,121 [9] INFO  bookingbug - Booking saved successfully
+2015-04-09 14:53:13,122 [9] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 14:54:38,897 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:54:41,205 [10] INFO  bookingbug - 0 bookings retrieved
+2015-04-09 14:54:41,206 [10] INFO  bookingbug - Bookings saved successfully.
+2015-04-09 14:54:41,206 [10] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 14:54:51,566 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:55:40,586 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:55:53,856 [9] INFO  bookingbug - 26 bookings retrieved
+2015-04-09 14:55:55,645 [9] INFO  bookingbug - Bookings saved successfully.
+2015-04-09 14:55:55,645 [9] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 14:56:20,200 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:56:37,519 [10] INFO  bookingbug - 26 bookings retrieved
+2015-04-09 14:57:38,880 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 14:57:56,396 [9] INFO  bookingbug - 26 bookings retrieved
+2015-04-09 14:58:03,325 [9] INFO  bookingbug - Bookings saved successfully.
+2015-04-09 14:58:03,327 [9] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-09 16:08:13,073 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:08:13,225 [10] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 16:08:13,384 [10] ERROR bookingbug - bookingbug integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.PersonRepository.AddPersonToContext(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 26
+   at IntegrationDataServices.PersonRepository.SavePerson(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 20
+   at BookingBugBookingIntegration.BookingBugOperations.GetPerson.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetPerson.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-09 16:08:22,157 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:08:29,971 [10] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 16:08:45,585 [10] ERROR bookingbug - bookingbug integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.PersonRepository.AddPersonToContext(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 26
+   at IntegrationDataServices.PersonRepository.SavePerson(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 20
+   at BookingBugBookingIntegration.BookingBugOperations.GetPerson.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetPerson.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-09 16:10:08,091 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:10:08,254 [9] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 16:10:08,269 [9] ERROR bookingbug - bookingbug integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.PersonRepository.AddPersonToContext(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 26
+   at IntegrationDataServices.PersonRepository.SavePerson(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 20
+   at BookingBugBookingIntegration.BookingBugOperations.GetPerson.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetPerson.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-09 16:10:18,244 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:10:44,946 [10] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 16:10:44,960 [10] ERROR bookingbug - bookingbug integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.PersonRepository.AddPersonToContext(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 26
+   at IntegrationDataServices.PersonRepository.SavePerson(Person contractPerson) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\PersonRepository.cs:line 20
+   at BookingBugBookingIntegration.BookingBugOperations.GetPerson.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetPerson.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-09 16:11:01,393 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:12:40,056 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-09 16:12:52,575 [10] INFO  bookingbug - Event retrieved successfully.
+2015-04-09 16:12:54,287 [10] INFO  bookingbug - Event saved successfully.
+2015-04-09 16:12:54,288 [10] INFO  bookingbug - Finished Booking Bug Booking execution

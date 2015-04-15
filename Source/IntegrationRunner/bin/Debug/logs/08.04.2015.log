@@ -1,0 +1,256 @@
+2015-04-08 10:07:59,176 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 10:07:59,400 [9] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 10:46:07,400 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 10:48:24,127 [8] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 10:50:08,360 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 10:50:32,130 [9] ERROR bbbooking - bbbooking integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.ReportingRepository.CreateBookingFromContract(Booking bookingContract) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 20
+   at IntegrationDataServices.ReportingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 13
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 10:57:31,454 [8] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 10:58:48,505 [8] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 11:09:02,403 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 11:40:09,614 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 11:40:21,795 [9] ERROR bbbooking - bbbooking integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.ReportingRepository.CreateBookingFromContract(Booking bookingContract) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 23
+   at IntegrationDataServices.ReportingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 13
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 11:44:55,001 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 11:45:01,996 [9] ERROR bbbooking - bbbooking integration failed
+System.NotSupportedException: LINQ to Entities does not recognize the method 'Int32 ToInt32(System.String)' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.EqualsTranslator.TypedTranslate(ExpressionConverter parent, BinaryExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateLambda(LambdaExpression lambda, DbExpression input, DbExpressionBinding& binding)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, DbExpression& source, DbExpressionBinding& sourceBinding, DbExpression& lambda)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.OneLambdaTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.FirstPredicateTranslatorBase.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.SequenceMethodTranslator.Translate(ExpressionConverter parent, MethodCallExpression call, SequenceMethod sequenceMethod)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at IntegrationDataServices.ReportingRepository.CreateBookingFromContract(Booking bookingContract) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 21
+   at IntegrationDataServices.ReportingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 14
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 11:45:30,402 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 11:47:33,153 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 11:47:37,248 [9] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 13:52:37,347 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 13:52:54,177 [10] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 13:54:41,910 [8] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 13:55:24,772 [8] ERROR bbbooking - bbbooking integration failed
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_BookingId'. Cannot insert duplicate key in object 'dbo.Bookings'. The duplicate key value is (22).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at IntegrationDataServices.ReportingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 16
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 13:56:49,717 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 13:56:55,270 [9] ERROR bbbooking - bbbooking integration failed
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK_BookingId'. Cannot insert duplicate key in object 'dbo.Bookings'. The duplicate key value is (22).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at IntegrationDataServices.ReportingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 16
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 13:57:40,092 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:11:09,741 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:11:38,951 [9] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 14:30:40,308 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:31:04,276 [10] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 14:31:36,031 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:33:25,410 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:33:37,487 [9] ERROR bbbooking - bbbooking integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.ReportingRepository.GetBookingFromContract(Booking bookingContract, Booking efBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 54
+   at IntegrationDataServices.ReportingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 28
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at IntegrationDataServices.ReportingRepository.SaveBookings(List`1 contractBookings) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 14
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 37
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 14:34:03,409 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:37:26,053 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:37:37,934 [9] ERROR bbbooking - bbbooking integration failed
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.ReportingRepository.GetBookingFromContract(Booking bookingContract, Booking efBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 61
+   at IntegrationDataServices.ReportingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 30
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at IntegrationDataServices.ReportingRepository.SaveBookings(List`1 contractBookings) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 14
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 37
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 14:38:48,506 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:44:35,947 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:45:06,151 [10] ERROR bbbooking - bbbooking integration failed
+System.Exception: Unable to create booking from API booking for bookingID: 17 ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at IntegrationDataServices.ReportingRepository.GetBookingFromContract(Booking bookingContract, Booking efBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 66
+   at IntegrationDataServices.ReportingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 31
+   --- End of inner exception stack trace ---
+   at IntegrationDataServices.ReportingRepository.<>c__DisplayClass1.<AddBookingToContext>b__0(Exception ex) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 28
+   at IntegrationDataServices.ReportingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 37
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at IntegrationDataServices.ReportingRepository.SaveBookings(List`1 contractBookings) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\TestEf.cs:line 14
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 37
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 14:45:25,848 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:52:50,013 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 14:53:10,304 [9] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 16:07:58,279 [11] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:10:05,626 [8] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:10:07,587 [8] ERROR bbbooking - bbbooking integration failed
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at IntegrationDataServices.EventRepository.SaveEvent(Event contractEvent) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\EventRepository.cs:line 21
+   at BookingBugBookingIntegration.BookingBugOperations.GetEvent.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetEvent.cs:line 25
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 37
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-08 16:10:34,691 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:16:37,796 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:19:19,146 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:19:38,763 [9] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-08 16:31:02,685 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:33:36,660 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:36:12,356 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:38:53,809 [8] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-08 16:39:15,445 [8] INFO  bbbooking - Finished Booking Bug Booking execution

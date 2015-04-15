@@ -1,0 +1,251 @@
+2015-04-14 09:36:53,254 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 09:40:02,810 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 09:40:03,816 [1] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 09:40:07,438 [1] INFO  bookingbug - Booking saved successfully
+2015-04-14 09:40:07,438 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 09:42:43,649 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 09:42:44,366 [1] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 09:42:46,377 [1] INFO  bookingbug - Booking saved successfully
+2015-04-14 09:42:46,378 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 09:52:10,927 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:12:22,911 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:14:28,500 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:16:33,998 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:17:45,226 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:20:30,078 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:22:53,426 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 10:23:05,036 [1] INFO  bookingbug - 49 bookings retrieved
+2015-04-14 10:23:09,096 [1] INFO  bookingbug - Bookings saved successfully.
+2015-04-14 10:23:09,097 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 14:11:18,264 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:11:31,190 [1] INFO  bookingbug - 54 bookings retrieved
+2015-04-14 14:11:37,350 [1] INFO  bookingbug - Bookings saved successfully.
+2015-04-14 14:11:37,350 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 14:28:47,524 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:28:48,362 [1] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 14:28:50,379 [1] INFO  bookingbug - Booking saved successfully
+2015-04-14 14:28:50,380 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 14:45:30,240 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:45:42,986 [1] INFO  bookingbug - 54 bookings retrieved
+2015-04-14 14:45:44,404 [1] ERROR bookingbug - bookingbug integration failed
+System.Data.Entity.Core.EntityCommandCompilationException: An error occurred while preparing the command definition. See the inner exception for details. ---> System.Data.Entity.Core.MappingException: 
+VcReporting.msl(6,10) : error 3004: Problem in mapping fragments starting at line 6:No mapping specified for properties Booking.event_Id in Set Bookings.
+An Entity with Key (PK) will not round-trip when:
+  Entity is type [VCReportingModel.Booking]
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitSortOp(SortBaseOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(ConstrainedSortOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ConstrainedSortOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityProviderServices.CreateDbCommandDefinition(DbProviderManifest providerManifest, DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateCommandDefinition(DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at IntegrationDataServices.BookingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 62
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at IntegrationDataServices.BookingRepository.SaveBookings(List`1 contractBookings) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 21
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 30
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-14 14:47:03,028 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:47:03,956 [1] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 14:47:05,259 [1] ERROR bookingbug - bookingbug integration failed
+System.Data.Entity.Core.EntityCommandCompilationException: An error occurred while preparing the command definition. See the inner exception for details. ---> System.Data.Entity.Core.MappingException: 
+VcReporting.msl(6,10) : error 3004: Problem in mapping fragments starting at line 6:No mapping specified for properties Booking.event_Id in Set Bookings.
+An Entity with Key (PK) will not round-trip when:
+  Entity is type [VCReportingModel.Booking]
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitSortOp(SortBaseOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(ConstrainedSortOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ConstrainedSortOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityProviderServices.CreateDbCommandDefinition(DbProviderManifest providerManifest, DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateCommandDefinition(DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at IntegrationDataServices.BookingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 62
+   at IntegrationDataServices.BookingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 29
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-14 14:48:18,331 [11] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:48:41,214 [11] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 14:49:08,055 [11] ERROR bookingbug - bookingbug integration failed
+System.Data.Entity.Core.EntityCommandCompilationException: An error occurred while preparing the command definition. See the inner exception for details. ---> System.Data.Entity.Core.MappingException: 
+VcReporting.msl(6,10) : error 3004: Problem in mapping fragments starting at line 6:No mapping specified for properties Booking.event_Id in Set Bookings.
+An Entity with Key (PK) will not round-trip when:
+  Entity is type [VCReportingModel.Booking]
+
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGenerateViews(EntityContainerMapping entityContainerMap, Dictionary`2 resultDictionary)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.SerializedGetGeneratedViews(EntityContainer container)
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.<>c__DisplayClass2.<Evaluate>b__0()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Result.GetValue()
+   at System.Data.Entity.Core.Common.Utils.Memoizer`2.Evaluate(TArg arg)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.ViewDictionary.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace, StorageMappingItemCollection storageMappingItemCollection)
+   at System.Data.Entity.Core.Mapping.StorageMappingItemCollection.GetGeneratedView(EntitySetBase extent, MetadataWorkspace workspace)
+   at System.Data.Entity.Core.Metadata.Edm.MetadataWorkspace.GetGeneratedView(EntitySetBase extent)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ExpandView(ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.ProcessScanTable(Node scanTableNode, ScanTableOp scanTableOp, IsOfOp& typeFilter)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(ScanTableOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ScanTableOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Visit(FilterOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.FilterOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitRelOpDefault(RelOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitSortOp(SortBaseOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(ConstrainedSortOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.ConstrainedSortOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.SubqueryTrackingVisitor.VisitChildren(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitDefault(Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfNode.VisitPhysicalOpDefault(PhysicalOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.Visit(PhysicalProjectOp op, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.PhysicalProjectOp.Accept[TResultType](BasicOpVisitorOfT`1 v, Node n)
+   at System.Data.Entity.Core.Query.InternalTrees.BasicOpVisitorOfT`1.VisitNode(Node n)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PreProcessor.Process(PlanCompiler planCompilerState, StructuredTypeInfo& typeInfo, Dictionary`2& tvfResultKeys)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.Query.PlanCompiler.PlanCompiler.Compile(DbCommandTree ctree, List`1& providerCommands, ColumnMap& resultColumnMap, Int32& columnCount, Set`1& entitySets)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition..ctor(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver, BridgeDataReaderFactory bridgeDataReaderFactory, ColumnMapFactory columnMapFactory)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityProviderServices.CreateCommandDefinition(DbProviderFactory storeProviderFactory, DbCommandTree commandTree, DbInterceptionContext interceptionContext, IDbDependencyResolver resolver)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityProviderServices.CreateDbCommandDefinition(DbProviderManifest providerManifest, DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Common.DbProviderServices.CreateCommandDefinition(DbCommandTree commandTree, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.CreateCommandDefinition(ObjectContext context, DbQueryCommandTree tree)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__1[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at IntegrationDataServices.BookingRepository.AddBookingToContext(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 62
+   at IntegrationDataServices.BookingRepository.SaveBooking(Booking contractBooking) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationDataServices\BookingRepository.cs:line 29
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 29
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 34
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-14 14:49:26,016 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:49:39,279 [10] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 14:51:26,002 [9] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 14:51:31,000 [9] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 15:02:08,254 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 15:02:09,103 [1] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 15:02:11,151 [1] INFO  bookingbug - Booking saved successfully
+2015-04-14 15:02:11,151 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 15:04:10,213 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 15:04:23,172 [1] INFO  bookingbug - 54 bookings retrieved
+2015-04-14 15:04:27,700 [1] INFO  bookingbug - Bookings saved successfully.
+2015-04-14 15:04:27,701 [1] INFO  bookingbug - Finished Booking Bug Booking execution
+2015-04-14 15:06:28,021 [8] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 15:07:14,105 [8] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 15:12:45,102 [10] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 15:13:30,669 [10] INFO  bookingbug - Booking retrieved successfully
+2015-04-14 15:13:53,668 [1] INFO  bookingbug - Starting Booking Bug Booking execution
+2015-04-14 15:14:06,514 [1] INFO  bookingbug - 54 bookings retrieved
+2015-04-14 15:14:10,408 [1] INFO  bookingbug - Bookings saved successfully.
+2015-04-14 15:14:10,409 [1] INFO  bookingbug - Finished Booking Bug Booking execution

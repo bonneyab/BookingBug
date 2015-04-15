@@ -1,0 +1,9 @@
+C:\2012Source\S-P3\VCReporting\Main\Source\Contract\bin\Debug\Contract.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\Contract\bin\Debug\Contract.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\Contract\obj\Debug\Contract.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\Contract\obj\Debug\Contract.pdb
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\Contract\bin\Debug\Contract.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\Contract\bin\Debug\Contract.pdb
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\Contract\obj\Debug\Contract.csprojResolveAssemblyReference.cache
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\Contract\obj\Debug\Contract.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\Contract\obj\Debug\Contract.pdb

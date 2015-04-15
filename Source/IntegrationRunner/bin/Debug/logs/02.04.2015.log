@@ -1,0 +1,11 @@
+2015-04-02 13:59:33,245 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-02 13:59:34,544 [10] INFO  bbbooking - Finished Booking Bug Booking execution
+2015-04-02 14:29:37,779 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-02 14:29:46,686 [10] ERROR bbbooking - bbbooking integration failed
+System.IndexOutOfRangeException: Not enough arguments, you must specify a booking ID
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.GetBookingFromParams(IReadOnlyList`1 args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 27
+   at BookingBugBookingIntegration.BookingBugOperations.GetBooking.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBooking.cs:line 20
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-02 14:30:27,925 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-02 14:30:34,032 [10] INFO  bbbooking - Finished Booking Bug Booking execution

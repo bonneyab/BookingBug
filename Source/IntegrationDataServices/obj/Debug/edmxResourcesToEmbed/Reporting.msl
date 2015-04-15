@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ReportingModelStoreContainer" CdmEntityContainer="ReportingEntities">
+    <EntitySetMapping Name="Events">
+      <EntityTypeMapping TypeName="ReportingModel.Event">
+        <MappingFragment StoreEntitySet="Events">
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="course" ColumnName="course" />
+          <ScalarProperty Name="questions_per_ticket" ColumnName="questions_per_ticket" />
+          <ScalarProperty Name="email_per_ticket" ColumnName="email_per_ticket" />
+          <ScalarProperty Name="ticket_type" ColumnName="ticket_type" />
+          <ScalarProperty Name="min_advance_time" ColumnName="min_advance_time" />
+          <ScalarProperty Name="max_num_bookings" ColumnName="max_num_bookings" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="person_name" ColumnName="person_name" />
+          <ScalarProperty Name="spaces" ColumnName="spaces" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="start_date" ColumnName="start_date" />
+          <ScalarProperty Name="capacity_view" ColumnName="capacity_view" />
+          <ScalarProperty Name="long_description" ColumnName="long_description" />
+          <ScalarProperty Name="time" ColumnName="time" />
+          <ScalarProperty Name="group" ColumnName="group" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="ReportingModel.Person">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="disabled" ColumnName="disabled" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="ReportingModel.Client">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="mobile_prefix" ColumnName="mobile_prefix" />
+          <ScalarProperty Name="phone_prefix" ColumnName="phone_prefix" />
+          <ScalarProperty Name="deleted" ColumnName="deleted" />
+          <ScalarProperty Name="member_type" ColumnName="member_type" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+          <ScalarProperty Name="address5" ColumnName="address5" />
+          <ScalarProperty Name="address4" ColumnName="address4" />
+          <ScalarProperty Name="address3" ColumnName="address3" />
+          <ScalarProperty Name="address2" ColumnName="address2" />
+          <ScalarProperty Name="address1" ColumnName="address1" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="ReportingModel.Booking">
+        <MappingFragment StoreEntitySet="Bookings">
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="event_title" ColumnName="event_title" />
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="channel" ColumnName="channel" />
+          <ScalarProperty Name="is_cancelled" ColumnName="is_cancelled" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="paid" ColumnName="paid" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="person_id" ColumnName="person_id" />
+          <ScalarProperty Name="client_id" ColumnName="client_id" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="booking_updated" ColumnName="booking_updated" />
+          <ScalarProperty Name="attended" ColumnName="attended" />
+          <ScalarProperty Name="company_id" ColumnName="company_id" />
+          <ScalarProperty Name="on_waitlist" ColumnName="on_waitlist" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="datetime" ColumnName="datetime" />
+          <ScalarProperty Name="client_mobile" ColumnName="client_mobile" />
+          <ScalarProperty Name="client_phone" ColumnName="client_phone" />
+          <ScalarProperty Name="client_email" ColumnName="client_email" />
+          <ScalarProperty Name="client_name" ColumnName="client_name" />
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="service_id" ColumnName="service_id" />
+          <ScalarProperty Name="service_name" ColumnName="service_name" />
+          <ScalarProperty Name="person_name" ColumnName="person_name" />
+          <ScalarProperty Name="full_describe" ColumnName="full_describe" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QuestionResults">
+      <EntityTypeMapping TypeName="ReportingModel.QuestionResult">
+        <MappingFragment StoreEntitySet="QuestionResults">
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="booking_id" ColumnName="booking_id" />
+          <ScalarProperty Name="question_group_id" ColumnName="question_group_id" />
+          <ScalarProperty Name="question_text" ColumnName="question_text" />
+          <ScalarProperty Name="question_id" ColumnName="question_id" />
+          <ScalarProperty Name="answer_text" ColumnName="answer_text" />
+          <ScalarProperty Name="answer_id" ColumnName="answer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

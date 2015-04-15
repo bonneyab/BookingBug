@@ -1,0 +1,10 @@
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugIntegration.csprojResolveAssemblyReference.cache
+C:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.pdb
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.pdb
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\BookingBugBookingIntegration\obj\Debug\BookingBugIntegration.csprojResolveAssemblyReference.cache
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.pdb

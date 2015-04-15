@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ReportingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bookings">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="full_describe" Type="nvarchar" MaxLength="1000" />
+    <Property Name="person_name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="service_name" Type="nvarchar" MaxLength="255" />
+    <Property Name="service_id" Type="int" />
+    <Property Name="member_id" Type="int" />
+    <Property Name="client_name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="client_email" Type="nvarchar" MaxLength="500" />
+    <Property Name="client_phone" Type="nvarchar" MaxLength="255" />
+    <Property Name="client_mobile" Type="nvarchar" MaxLength="255" />
+    <Property Name="datetime" Type="datetime" />
+    <Property Name="duration" Type="int" />
+    <Property Name="on_waitlist" Type="bit" />
+    <Property Name="company_id" Type="int" />
+    <Property Name="attended" Type="bit" />
+    <Property Name="booking_updated" Type="datetime" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="created_at" Type="datetime" />
+    <Property Name="client_id" Type="int" />
+    <Property Name="person_id" Type="int" />
+    <Property Name="price" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="paid" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="quantity" Type="int" />
+    <Property Name="is_cancelled" Type="bit" />
+    <Property Name="channel" Type="nvarchar" MaxLength="1000" />
+    <Property Name="status" Type="int" />
+    <Property Name="event_id" Type="int" />
+    <Property Name="event_title" Type="nvarchar" MaxLength="1000" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="first_name" Type="nvarchar" MaxLength="500" />
+    <Property Name="last_name" Type="nvarchar" MaxLength="500" />
+    <Property Name="email" Type="nvarchar" MaxLength="500" />
+    <Property Name="address1" Type="nvarchar" MaxLength="500" />
+    <Property Name="address2" Type="nvarchar" MaxLength="500" />
+    <Property Name="address3" Type="nvarchar" MaxLength="500" />
+    <Property Name="address4" Type="nvarchar" MaxLength="500" />
+    <Property Name="address5" Type="nvarchar" MaxLength="500" />
+    <Property Name="postcode" Type="nvarchar" MaxLength="500" />
+    <Property Name="country" Type="nvarchar" MaxLength="500" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="255" />
+    <Property Name="member_type" Type="nvarchar" MaxLength="500" />
+    <Property Name="deleted" Type="bit" />
+    <Property Name="phone_prefix" Type="nvarchar" MaxLength="255" />
+    <Property Name="mobile_prefix" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Events">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="description" Type="nvarchar" MaxLength="1000" />
+    <Property Name="duration" Type="int" />
+    <Property Name="group" Type="nvarchar" MaxLength="1000" />
+    <Property Name="time" Type="datetime" />
+    <Property Name="long_description" Type="nvarchar" MaxLength="2000" />
+    <Property Name="capacity_view" Type="int" />
+    <Property Name="start_date" Type="datetime" />
+    <Property Name="end_date" Type="datetime" />
+    <Property Name="spaces" Type="int" />
+    <Property Name="person_name" Type="nvarchar" MaxLength="500" />
+    <Property Name="price" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="max_num_bookings" Type="int" />
+    <Property Name="min_advance_time" Type="datetime" />
+    <Property Name="ticket_type" Type="nvarchar" MaxLength="500" />
+    <Property Name="email_per_ticket" Type="bit" />
+    <Property Name="questions_per_ticket" Type="bit" />
+    <Property Name="course" Type="bit" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="type" Type="nvarchar" MaxLength="500" />
+    <Property Name="email" Type="nvarchar" MaxLength="500" />
+    <Property Name="deleted" Type="bit" />
+    <Property Name="disabled" Type="bit" />
+    <Property Name="company_id" Type="int" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="255" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="QuestionResults">
+    <Key>
+      <PropertyRef Name="answer_id" />
+    </Key>
+    <Property Name="answer_id" Type="int" Nullable="false" />
+    <Property Name="answer_text" Type="nvarchar" MaxLength="1000" />
+    <Property Name="question_id" Type="int" />
+    <Property Name="question_text" Type="nvarchar" MaxLength="1000" />
+    <Property Name="question_group_id" Type="int" />
+    <Property Name="booking_id" Type="int" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ReportingModelStoreContainer">
+    <EntitySet Name="Bookings" EntityType="Self.Bookings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Events" EntityType="Self.Events" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="QuestionResults" EntityType="Self.QuestionResults" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

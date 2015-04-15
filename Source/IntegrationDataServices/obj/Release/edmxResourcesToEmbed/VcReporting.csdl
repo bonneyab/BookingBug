@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VCReportingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="VCReportingEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Events" EntityType="VCReportingModel.Event" />
+    <EntitySet Name="People" EntityType="VCReportingModel.Person" />
+    <EntitySet Name="Clients" EntityType="VCReportingModel.Client" />
+    <EntitySet Name="Bookings" EntityType="VCReportingModel.Booking" />
+    <EntitySet Name="QuestionResults" EntityType="VCReportingModel.QuestionResult" />
+  </EntityContainer>
+  <EntityType Name="Event">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="duration" Type="Int32" />
+    <Property Name="group" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="time" Type="DateTime" Precision="3" />
+    <Property Name="long_description" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="capacity_view" Type="Int32" />
+    <Property Name="start_date" Type="DateTime" Precision="3" />
+    <Property Name="end_date" Type="DateTime" Precision="3" />
+    <Property Name="spaces" Type="Int32" />
+    <Property Name="person_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="price" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="max_num_bookings" Type="Int32" />
+    <Property Name="min_advance_time" Type="DateTime" Precision="3" />
+    <Property Name="ticket_type" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="email_per_ticket" Type="Boolean" />
+    <Property Name="questions_per_ticket" Type="Boolean" />
+    <Property Name="course" Type="Boolean" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="type" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="deleted" Type="Boolean" />
+    <Property Name="disabled" Type="Boolean" />
+    <Property Name="company_id" Type="Int32" />
+    <Property Name="mobile" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="first_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="address1" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="address2" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="address3" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="address4" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="address5" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="postcode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="country" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="mobile" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="member_type" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="deleted" Type="Boolean" />
+    <Property Name="phone_prefix" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="mobile_prefix" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="full_describe" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="person_name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="service_name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="service_id" Type="Int32" />
+    <Property Name="member_id" Type="Int32" />
+    <Property Name="client_name" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="client_email" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="client_phone" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="client_mobile" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="datetime" Type="DateTime" Precision="3" />
+    <Property Name="duration" Type="Int32" />
+    <Property Name="on_waitlist" Type="Boolean" />
+    <Property Name="company_id" Type="Int32" />
+    <Property Name="attended" Type="Boolean" />
+    <Property Name="booking_updated" Type="DateTime" Precision="3" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="created_at" Type="DateTime" Precision="3" />
+    <Property Name="client_id" Type="Int32" />
+    <Property Name="person_id" Type="Int32" />
+    <Property Name="price" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="paid" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="quantity" Type="Int32" />
+    <Property Name="is_cancelled" Type="Boolean" />
+    <Property Name="channel" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Int32" />
+    <Property Name="event_id" Type="Int32" />
+    <Property Name="event_title" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="QuestionResult">
+    <Key>
+      <PropertyRef Name="answer_id" />
+    </Key>
+    <Property Name="answer_id" Type="Int32" Nullable="false" />
+    <Property Name="answer_text" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="question_id" Type="Int32" />
+    <Property Name="question_text" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CreatedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

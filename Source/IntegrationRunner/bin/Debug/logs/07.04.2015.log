@@ -1,0 +1,14 @@
+2015-04-07 14:43:19,694 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-07 14:46:50,479 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-07 14:48:19,269 [9] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-07 14:55:02,611 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-07 14:55:42,446 [10] ERROR bbbooking - bbbooking integration failed
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at BookingBugBookingIntegration.BookingBugApi.<GetBookings>b__1(JObject jObject) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\IBookingBugApi.cs:line 51
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at BookingBugBookingIntegration.BookingBugApi.GetBookings(DateTime modified) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\IBookingBugApi.cs:line 51
+   at BookingBugBookingIntegration.BookingBugOperations.GetBookings.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugOperations\GetBookings.cs:line 21
+   at BookingBugBookingIntegration.BookingBugBookingIntegration.Execute(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\BookingBugBookingIntegration.cs:line 38
+   at IntegrationRunner.IntegrationRunner.Main(String[] args) in c:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\IntegrationRunner.cs:line 32
+2015-04-07 14:57:34,788 [10] INFO  bbbooking - Starting Booking Bug Booking execution
+2015-04-07 15:14:57,141 [9] INFO  bbbooking - Starting Booking Bug Booking execution

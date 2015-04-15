@@ -1,0 +1,17 @@
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.csprojResolveAssemblyReference.cache
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\BookingBugBookingIntegration.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\BookingBugBookingIntegration.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Core.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\IntegrationServices.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Newtonsoft.Json.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\log4net.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Autofac.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Core.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\IntegrationServices.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Newtonsoft.Json.xml
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\log4net.xml
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\bin\Debug\Autofac.xml
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\BookingBugBookingIntegration\obj\Debug\BookingBugBookingIntegration.pdb
+C:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.dll
+C:\2012Source\S-P3\VCReporting\Main\Source\IntegrationRunner\bin\Debug\BookingBugBookingIntegration.pdb
