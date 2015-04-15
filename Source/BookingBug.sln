@@ -9,37 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationServices", "IntegrationServices\IntegrationServices.csproj", "{617F2E85-E904-4957-909C-535FB75DEE21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConnectors", "IntegrationDataServices\DataConnectors.csproj", "{55864A64-920B-4211-A7AE-41EBDCF94ED5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{55864A64-920B-4211-A7AE-41EBDCF94ED5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingBugIntegration", "BookingBugBookingIntegration\BookingBugIntegration.csproj", "{630E69F2-BAD9-440D-B9BF-D74E9151DD37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{E7571FB5-F541-4CA0-9B3E-AFF26B97B7EC}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://devtfswebv01:8080/tfs/defaultcollection2012
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Contract\\Contract.csproj
-		SccProjectName1 = Contract
-		SccLocalPath1 = Contract
-		SccProjectUniqueName2 = Core\\Core.csproj
-		SccProjectName2 = Core
-		SccLocalPath2 = Core
-		SccProjectUniqueName3 = IntegrationDataServices\\DataConnectors.csproj
-		SccProjectName3 = IntegrationDataServices
-		SccLocalPath3 = IntegrationDataServices
-		SccProjectUniqueName4 = IntegrationServices\\IntegrationServices.csproj
-		SccProjectName4 = IntegrationServices
-		SccLocalPath4 = IntegrationServices
-		SccProjectUniqueName5 = BookingBugBookingIntegration\\BookingBugIntegration.csproj
-		SccProjectName5 = BookingBugBookingIntegration
-		SccLocalPath5 = BookingBugBookingIntegration
-		SccProjectUniqueName6 = IntegrationRunner\\IntegrationRunner.csproj
-		SccProjectName6 = IntegrationRunner
-		SccLocalPath6 = IntegrationRunner
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		dev|Any CPU = dev|Any CPU
@@ -124,23 +100,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://devtfswebv01:8080/tfs/defaultcollection2012
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Core\\Core.csproj
-		SccProjectName1 = Core
-		SccLocalPath1 = Core
-		SccProjectUniqueName2 = IntegrationRunner\\IntegrationRunner.csproj
-		SccProjectName2 = IntegrationRunner
-		SccLocalPath2 = IntegrationRunner
-		SccProjectUniqueName3 = IntegrationServices\\IntegrationServices.csproj
-		SccProjectName3 = IntegrationServices
-		SccLocalPath3 = IntegrationServices
-		SccProjectUniqueName4 = IntegrationDataServices\\DataConnectors.csproj
-		SccProjectName4 = IntegrationDataServices
-		SccLocalPath4 = IntegrationDataServices
 	EndGlobalSection
 EndGlobal

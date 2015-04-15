@@ -1,0 +1,6 @@
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\IntegrationRunner\bin\Debug\IntegrationDataServices.dll.config
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\IntegrationRunner\bin\Debug\IntegrationDataServices.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\IntegrationRunner\bin\Debug\IntegrationDataServices.pdb
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\DataAccess\obj\Debug\IntegrationDataServices.dll
+C:\Users\adambo\Documents\GitHub\BookingBug\Source\DataAccess\obj\Debug\IntegrationDataServices.pdb

@@ -82,9 +82,9 @@
       <Project>{f0954f86-1e91-4d0e-9794-87a15c273354}</Project>
       <Name>Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\IntegrationDataServices\DataConnectors.csproj">
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{55864a64-920b-4211-a7ae-41ebdcf94ed5}</Project>
-      <Name>DataConnectors</Name>
+      <Name>DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\IntegrationServices\IntegrationServices.csproj">
       <Project>{617f2e85-e904-4957-909c-535fb75dee21}</Project>

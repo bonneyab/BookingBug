@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Core;
 
-namespace IntegrationDataServices
+namespace DataAccess
 {
     class ClientRepository : IClientRepository
     {

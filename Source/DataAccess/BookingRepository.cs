@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Core;
 
-namespace IntegrationDataServices
+namespace DataAccess
 {
     //TODO: consider a more generic repository pattern?
     //TODO: consider moving the interfaces into the contract project?

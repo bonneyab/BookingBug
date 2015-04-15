@@ -116,18 +116,6 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="app.DEV.config">
-      <DependentUpon>app.config</DependentUpon>
-    </None>
-    <None Include="app.TEST.config">
-      <DependentUpon>app.config</DependentUpon>
-    </None>
-    <None Include="app.STAGE.config">
-      <DependentUpon>app.config</DependentUpon>
-    </None>
-    <None Include="app.PROD.config">
-      <DependentUpon>app.config</DependentUpon>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

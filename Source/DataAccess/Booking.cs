@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IntegrationDataServices
+namespace DataAccess
 {
     using System;
     using System.Collections.Generic;

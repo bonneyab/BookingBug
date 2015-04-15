@@ -7,29 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IntegrationDataServices
+namespace DataAccess
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Client
+    public partial class Person
     {
         public int Id { get; set; }
-        public string first_name { get; set; }
-        public string last_name { get; set; }
+        public string name { get; set; }
+        public string type { get; set; }
         public string email { get; set; }
-        public string address1 { get; set; }
-        public string address2 { get; set; }
-        public string address3 { get; set; }
-        public string address4 { get; set; }
-        public string address5 { get; set; }
-        public string postcode { get; set; }
-        public string country { get; set; }
-        public string mobile { get; set; }
-        public string member_type { get; set; }
         public Nullable<bool> deleted { get; set; }
-        public string phone_prefix { get; set; }
-        public string mobile_prefix { get; set; }
+        public Nullable<bool> disabled { get; set; }
+        public Nullable<int> company_id { get; set; }
+        public string mobile { get; set; }
         public System.DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public System.DateTime ModifiedDate { get; set; }
